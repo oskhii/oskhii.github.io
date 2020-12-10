@@ -1,0 +1,28 @@
+body {
+	padding:10px;
+	font-family:Calibri;
+	font-size:20px;
+	background-color:lightgrey;
+}
+table, th, td {
+	text-align:center;
+	background-color:lightblue;
+	border:2px solid;
+	padding: 5px;
+}
+legend {
+	font-weight:bold;
+}
+caption {
+	font-weight:bold;
+	font-size:30px;
+}
+fieldset {
+	background-color:lightblue;
+	border:2px solid;
+	padding:10px;
+}
+input {
+	padding:10px;
+	border:2px solid;
+}

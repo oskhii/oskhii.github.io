@@ -1,39 +1,93 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<title>Index</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<div id="header">
-<h1>Index</h1>
-</div>
-<div id="main_nav">
-<ul>
-<li class="links">Index</li>
-<li class="links"><a href="second.html">Second</a></li>
-<li class="links"><a href="third.html">Third</a></li>
-</ul>
-</div>
-<div id="vertical_nav">
-<p>Link to&nbsp;<a href="https://www.youtube.com/" target="_blank">YouTube</a></p>
-<p>Link to&nbsp;<a href="https://github.com/" target="_blank">Github</a></p>
-</div>
-<div class="section">
-<p>I'm hosted with GitHub Pages.</p>
-</div>
-<div class="section">
-<ol>
-<li>Item row 1</li>
-<li>Item row 2</li>
-</ol>
-<ul>
-<li>Item row 3</li>
-<li>Item row 4</li>
-</ul>
-</div>
-<div id="footer">
-<p>oskhii.github.io</p>
-</div>
-</body>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>European Football League Stadnings</title>
+	<link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+  <div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1>European Football League Standings</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h3>Click on the League to see the standings*</h3>
+				<a href="ucl.html"><img src="ucl.png" alt="UEFA Champions League Logo"></a>
+				<a href="prem.html"><img src="prem.png" alt="Premier League Logo"></a>			
+				<a href="laliga.html"><img src="laliga.png" alt="La Liga Santander Logo"></a>
+				<a href="bundesliga.html"><img src="bundesliga.png" alt="Bundesliga Logo"></a>
+				<a href="seriea.html"><img src="seriea.png" alt="Serie A TIM Logo"></a>
+				<a href="ligue1.html"><img src="ligue1.png" alt="Ligue 1 Uber Eats Logo"></a>
+				<h5>UEFA Champions League and Europe's Top 5 Leagues:</h5>
+				<h5>Premier League, LaLiga Santander, Bundesliga, Serie A TIM and Ligue 1 Uber Eats</h5>
+				<p>*League Tables accurate as of 10.12.2020</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">				
+				<br>
+				<h3>Who will win the UEFA Champions League?</h3>
+				<h3>Answer for a chance to win!</h3>
+				<form>
+					<fieldset>
+						<legend>Personal Info</legend>
+						<label for="fname">First Name:</label><br>
+						<input type="text" id="fname" required><br>
+						<label for="lname">Last Name:</label><br>
+						<input type="text" id="lname" required><br>
+						<label for="email">Email:</label><br>
+						<input type="email" id="email" name="email" required>
+					</fieldset>
+					<fieldset>
+						<legend>Your Answers</legend>
+						<label for="choice">The Round of 16 is up next, which team do you think will go all the way?</label><br>
+						<select id="choice" name="choice" required>
+							<option disabled selected value>Select an option</option>
+							<option value="Atalanta">Atalanta</option>
+							<option value="Atlético Madrid">Atlético Madrid</option>
+							<option value="FC Barcelona">FC Barcelona</option>
+							<option value="Bayern München">Bayern München</option>
+							<option value="Chelsea">Chelsea</option>
+							<option value="Borussia Dortmund">Borussia Dortmund</option>
+							<option value="Juventus">Juventus</option>
+							<option value="Lazio">Lazio</option>
+							<option value="RB Leipzig">RB Leipzig</option>
+							<option value="Liverpool">Liverpool</option>
+							<option value="Manchester City">Manchester City</option>
+							<option value="Borussia Mönchengladbach">Borussia Mönchengladbach</option>
+							<option value="Paris Saint-Germain">Paris Saint-Germain</option>
+							<option value="FC Porto">FC Porto</option>
+							<option value="Real Madrid">Real Madrid</option>
+							<option value="Sevilla">Sevilla</option>
+						</select><br><br>
+						<label for="textarea">How have you been enjoying the UEFA Champions League so far? (optional)</label><br>
+						<textarea id="textarea" name="textarea" rows="4" cols="80" placeholder="Enter your answer here"></textarea><br>
+						<input type="checkbox" id="newsletter" name="newsletter">
+						<label for="newsletter">Sign up for our newsletter (optional)</label>
+					</fieldset>
+					<input type="submit" value="Send answers and participate">
+				</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h5>© 2020 All rights reserved</h5>
+			</div>
+		</div>
+	</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
