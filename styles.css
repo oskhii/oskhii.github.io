@@ -1,91 +1,42 @@
+#header {
+	background-color: cyan;
+	padding: 10px;
+	text-align: center;
+}
+#main_nav {
+	background-color: lime;
+	padding: 10px;
+	text-align: center;
+}
+#vertical_nav {
+	background-color: pink;
+	float: left;
+	width: 20%;
+	padding:1%;
+	height: 500px;
+}
+.section {
+	background-color: yellow;
+	float: left;
+	width: 37%;
+	padding: 1%;
+	height: 500px;
+}
 body {
-	font-size: 15px;
-	background-image: url("pitch.png");
-
+width: 90%;
+margin-left: auto;
+margin-right: auto;
 }
-.row {
-	padding-top: 20px;
-	padding-bottom:20px;
-	border: 2px solid;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color:white;
-	text-align:center;
-	border-radius: 20px;
+.links {
+	display: inline;
+	padding: 50px;
 }
-img {
-	padding:15px;
-	width:150px;
-	border:20px solid white;
-	margin:5px;
+a:hover {
+	color: red;
 }
-legend {
-	font-weight:bold;
-}
-caption {
-	font-weight:bold;
-	font-size:30px;
-	caption-side:top;
-	padding:5px;
-}
-table {
-	border:2px solid;
-	width:100%;
-	margin-bottom:20px;
-}
-td {
-	text-align:center;
-	padding:5px;
-}
-.team {
-	text-align:left;
-	padding:5px;
-	width:100%;
-}
-.info {
-	text-align:center;
-	padding:5px;
-}
-.ucl {
-	background-color:rgb(60,120,253);
-	padding:5px;
-}
-.uel {
-	background-color:rgb(242,166,11);
-	padding:5px;
-}
-.relegation {
-	background-color:rgb(255,40,40);
-	padding:5px;
-}
-.play-off {
-	background-color:rgb(255,102,0);
-	padding:5px;
-}
-img:hover {
-	border:2px solid black;
-	transition:1s;
-}
-legend {
-	font-weight:bold;
-}
-caption {
-	font-weight:bold;
-	font-size:30px;
-	text-align:center;
-	color:black;
-}
-fieldset {
-	padding:10px;
-}
-input {
-	padding:10px;
-}
-form {
-	text-align:left;
-}
-button {
-	padding:10px;
-	width:100%;
-	height:100%;
+#footer {
+	background-color: orange;
+	padding: 10px;
+	text-align: center;
+	clear: both;
 }
