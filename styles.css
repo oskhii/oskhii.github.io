@@ -1,0 +1,76 @@
+/*Style the body element*/
+body {
+    font-size : 15px;
+    background-image : url("pitch.PNG");
+}
+/*Style the divs with class "row"*/
+.row {
+    padding-top : 20px;
+    padding-bottom : 20px;
+    border : solid 2px;
+    margin-top : 20px;
+    margin-bottom : 20px;
+    background-color : white;
+    text-align : center;
+    border-radius:20px;
+}
+/*Style the top league logos*/
+img {
+    padding : 15px;
+    width : 200px;
+    border : white solid 20px;
+    margin : 5px;
+}
+/*Style the table elements*/
+table {
+    border : solid 2px;
+    width : 100%;
+    margin-bottom : 20px;
+}
+/*Style the tr elements on hover*/
+tr:hover {
+    background-color: lightgrey;
+    transition: 1s;
+}
+/*Style the table td elements*/
+td {
+    text-align : center;
+    padding : 5px;
+}
+/*Style the class "team" elements*/
+.team {
+    text-align : left;
+    padding : 5px;
+    width : 100%;
+}
+/*Style the class "info" elements*/
+.info {
+    text-align : center;
+    padding : 10px;
+}
+/*Style the class "ucl" elements*/
+.ucl {
+    background-color : rgb(60, 120, 253);
+    padding : 5px;
+}
+/*Style the class "uel" elements*/
+.uel {
+    background-color : rgb(242, 166, 11);
+    padding : 5px;
+}
+/*Style the class "relegation" elements*/
+.relegation {
+    background-color : rgb(255, 40, 40);
+    padding : 5px;
+}
+/*Style the class "play-off" elements*/
+.play-off {
+    background-color : rgb(255, 102, 0);
+    padding : 5px;
+}
+/*Style the league logos on hover*/
+img:hover {
+    border : black solid 2px;
+    border-radius: 20px;
+    transition : 0.5s;
+}

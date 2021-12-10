@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<title>Serie A Standings</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				<button onclick="document.location='index.html'" type="button" class="btn btn-outline-secondary btn-md">Home</button>
+			</div>
+			<div class="col-sm-6">
+				<h1>Serie A TIM</h1>
+			</div>
+			<div class="col-sm-3">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h3>Click on the League to see the standingss</h3>
+				<a href="prem.html"><img src="prem.png" alt="Premier League Logo"></a>
+				<a href="laliga.html"><img src="laliga.png" alt="La Liga Santander Logo"></a>
+				<a href="bundes.html"><img src="bundes.png" alt="Bundesliga Logo"></a>
+				<img src="seriea.png" alt="Serie A TIM Logo">
+				<a href="ligue1.html"><img src="ligue1.png" alt="Ligue 1 Uber Eats Logo"></a>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<table>
+					<thead>
+						<tr>
+							<th class="info">Position</th>
+							<th class="team">Team name</th>
+							<th class="info">Played</th>
+							<th class="info">Wins</th>
+							<th class="info">Draws</th>
+							<th class="info">Losses</th>
+							<th class="info">Goals</th>
+							<th class="info">+/-</th>
+							<th class="info">Points</th>
+						</tr>
+					</thead>
+					<tbody id="serieAData"></tbody>
+				</table>
+				<table>
+					<thead>
+						<tr>
+							<th class="info">Explanations</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="ucl">UEFA Champions League Group Stage</td>
+						</tr>
+						<tr>
+							<td class="uel">UEFA Europa League Group Stage</td>
+						</tr>
+						<tr>
+							<td class="relegation">Relegation</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h5>© 2021 All rights reserved (not really)</h5>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+
+</html>
